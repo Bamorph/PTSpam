@@ -5,15 +5,15 @@
 #  |  _  |  _  |        |  _  |   _|  _  ||     |
 #  |_____|___._|__|__|__|_____|__| |   __||__|__|
 #                                  |__|          
-#  
+#
 #  Author: Bamorph
 #  Year: 2023
 #  Credit: John Hammond
-#  
-#  Notes: John hammond used the base version of this code in king of the hill agains Optional and others. 
-#  The original code was to use the tty command to determin your own tty session and then 
-#  'cat /dev/urandom > /dev/pts/5' into someone elses pts session. the result is the other
-#  persons screen being completly spammed by random data.
+#
+#  Notes: John hammond used the base version of this code in King of the Hill against Optional and others. 
+#  The original code was to use the tty command to determine your own tty session and then 
+#  'cat /dev/urandom > /dev/pts/5' into someone else's pts session. the result is the other
+#  person's screen being completely spammed by random data.
 
 
 # Get the current PTS (your PTS)
