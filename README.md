@@ -11,3 +11,7 @@ This Bash script redirects random data from `/dev/urandom` to all pseudo-termina
 
    ```bash
    bash PTSpam.sh
+
+
+
+[![YouTube link](http://img.youtube.com/vi/-j81Bqz8NwQ/0.jpg)](http://www.youtube.com/watch?v=-j81Bqz8NwQ "Video Tutorial")
