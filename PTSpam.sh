@@ -15,6 +15,17 @@
 #  'cat /dev/urandom > /dev/pts/5' into someone else's pts session. the result is the other
 #  person's screen being completely spammed by random data.
 
+# Function to stop the spamming processes
+stop_spam() {
+    echo "Stopping spamming processes..."
+    pkill -f "cat /dev/urandom > /dev/pts"
+}
+
+# Check for the -stop argument
+if [[ "$1" == "-stop" ]]; then
+    stop_spam
+    exit 0
+fi
 
 # Get the current PTS (your PTS)
 current_pts=$(tty | cut -d '/' -f 4)
