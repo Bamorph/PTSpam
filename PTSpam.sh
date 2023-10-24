@@ -18,7 +18,7 @@
 # Function to stop the spamming processes
 stop_spam() {
     echo "Stopping spamming processes..."
-    pkill -f "cat /dev/urandom > /dev/pts"
+    pkill -f "cat /dev/urandom"
 }
 
 # Check for the -stop argument
